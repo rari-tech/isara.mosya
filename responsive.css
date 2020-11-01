@@ -1,0 +1,732 @@
+/*タブレット向けレイアウト*/
+@media screen and (max-width: 1024px) {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    overflow: auto;
+  }
+  body {
+    overflow : hidden;
+    margin:     0;
+    width: 100%;
+  }
+}
+
+/*スマホ向けレイアウト*/
+@media screen and (max-width: 767px) {
+  * {
+    box-sizing: border-box;
+  }
+  html {
+    overflow: auto;
+  }
+  body {
+    overflow : hidden;
+    box-sizing: border-box;
+    margin:     0;
+    width: 100%;
+  }
+  header {
+    display: none;
+  }
+  .header-content {
+    display: block;
+    height: auto;
+    z-index: 10;
+    top: 0;
+  	width: 100%;
+    position: fixed;
+    background-color: white;
+  }
+  .header-left-2 img {
+    width: 160px;
+  }
+  .header-left-2 h2 {
+    font-size: 12px;
+    padding-left: 5px;
+  }
+  .header-right input {
+    display: none;
+  }
+  .header-right-2 img {
+    padding-top: 14px;
+  }
+  .header-right-2 h1 {
+    padding-top: 7px;
+  }
+  .header-right-2 {
+    display: inline-block;
+    float: right;
+    background-color: #da6b64;
+    color: white;
+    margin-top: -80px;
+    height: 90px;
+    font-size: 14px;
+    width: 90px;
+    text-align: center;
+  }
+  .secound-wrapper {
+    background-image: url(https://isara.life/wp-content/themes/isara_v2/img/mainsp.jpg);
+    margin-top: 45px;
+  }
+
+  .third-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .text-3 {
+    display: inline-block;
+  }
+  .text-4 {
+    display: none;
+  }
+  .submitAsking {
+    font-size: 18px;
+  }
+  .submitAsking input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .submitAsking p {
+    line-height: 40px;
+  }
+
+  .good {
+    padding-top: 3px;
+    padding-bottom: 1px;
+  }
+  .fourth-wrapper {
+    height: auto;
+  }
+  .heading-engineer:before,.heading-engineer:after {
+    display: none;
+  }
+  .fifth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .headingIsara:before,.headingIsara:after {
+    display: none;
+  }
+  .leftClass {
+    display: inline-block;
+  }
+  .hand-up {
+    padding-top: 13px;
+  }
+  .sixth-wrapper {
+    height: auto;
+  }
+  .step-1 {
+    margin-left: 0;
+  }
+  .programmingSteps {
+    display: inline-block;
+  }
+  .programmingStep {
+    margin-bottom: 20px;
+    max-width: 300px;
+    margin-right: initial;
+  }
+  .programmingStep h1 {
+    max-width: 250px;
+  }
+  .isaraMember {
+    margin-bottom: 40px;
+  }
+  .isaraMembers-1 {
+    display: inline-block;
+  }
+  .isaraMembers-2 {
+    display: inline-block;
+    margin-top: initial;
+  }
+  .border-2 {
+    padding: 30px 20px;
+    margin-right:initial;
+
+  }
+  .isaraMember img {
+    margin-top: -170px;
+    margin-left: 96px;
+    text-align: center;
+  }
+  .seventh-wrapper {
+    height: auto;
+  }
+  .eighth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .isaraAbility img {
+    display: none;
+  }
+  .eighth-wrapper p {
+    display: none;
+  }
+  .imgCircle-3 {
+    margin-left: 20px;
+  }
+  .ninth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .headingMerit:before,.headingMerit:after {
+    display: none;
+  }
+  .lessonImages {
+    display: inline-block;
+  }
+  .lessonImage {
+    margin-right: initial;
+  }
+
+  /* tenth-wrapper　長いためややこしくなるから */
+  .tenth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .headingMembers {
+    text-align: center;
+    font-weight: bold;
+  }
+  .headingMembers h1 {
+    font-size: 27px;
+    letter-spacing: 2px;
+    padding-top: 90px;
+  }
+  .headingMembers p {
+    letter-spacing: 0.7px;
+    margin-top: 40px;
+    margin-bottom: 52px;
+  }
+  .isaraContainer-2 {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .isaraMembers-1 {
+    display: inline-block;
+    justify-content: initial;
+  }
+  .isaraMembers-1 img {
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    margin-left: 130px;
+    width: 220px;
+  }
+  .border-2 {
+    border: 3px solid white;
+    padding: 60px 40px;
+    margin-top: 200px;
+    margin-right: 27px;
+  }
+  .b-3 {
+  	margin-left: 27px;
+    margin-top: 160px;
+  }
+  .b-4 {
+    margin-left: 27px;
+  }
+  .isaraMembers-2 {
+    display: initial;
+    justify-content: initial;
+    display: inline-block;
+  }
+  .isaraMembers-2 img {
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    margin-left: 130px;
+    width: 220px;
+  }
+  .isaraMember p {
+    display: inline-block;
+    letter-spacing: 1px;
+    max-width: 500px;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  .memberDescription h1 {
+    text-align: center;
+    line-height: 33px;
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-size: 18px;
+  }
+  .paddingDown {
+    margin-top: 22px;
+  }
+  /* tenth-wrapperここまで */
+
+  .eleventh-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .freeEarn:before,.freeEarn:after {
+    display: none;
+  }
+
+  /* tewlfth-wrapper */
+  .tewlfth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .comentImages {
+  	max-width: initial;
+  	margin: initial;
+  	text-align: center;
+    margin: 0 auto;
+  }
+  .comentImage {
+  	float: initial;
+    margin-bottom: 20px;
+    display: inline-block;
+
+  }
+  .comentImage img {
+    width: 95%;
+    max-width: 240px;
+    border: 3px solid #ebb94d;
+
+  }
+  .comentText {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .comentText p {
+  	float:initial;
+    display: inline-block;
+    width: 95%;
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #777;
+  	text-align: initial;
+  }
+  small {
+    text-decoration: underline;
+    display: inline-block;
+    margin-top: 8px;
+  }
+  /* tewlfth-wrapper ここまで */
+
+  .thirteenth-wrapper {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .studyFlow {
+    display: block;
+    justify-content: initial;
+    align-items: initial;
+  }
+  .beforeTravel {
+    background-color: white;
+    display: inline-block;
+    border: 2px solid #016ea9;
+    border-radius: 6px;
+    width: 95%;
+    max-width: 375px;
+    margin-top: 55px;
+  	margin-left: 0;
+  }
+  .whileTraveling {
+    background-color: white;
+    display: inline-block;
+    border: 2px solid #016ea9;
+    border-radius: 6px;
+    width: 95%;
+    max-width: 375px;
+    margin-left: 0;
+  	margin-right: 0;
+    margin-top: 55px;
+  }
+
+
+  .fourteenth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  /* sixteenth-wrapper */
+  .sixteenth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .headingStudyFlow h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .fas {
+    font-size: 23px;
+  }
+  .imageFlowChart {
+    display: none;
+  }
+
+  /*1番目*/
+  .imageContainer {
+    padding: 20px;
+  }
+  .flex-box {
+    display: initial;
+  }
+  .flowDetailedImage img {
+    width: 70px;
+  }
+  .flowDetailedImage p {
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .flowDetailedText {
+    margin-left: 0;
+  }
+  .flowDetailedText h1 {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText h2 {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText p {
+    margin-top: 15px;
+    font-size: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  /*2番目*/
+  .imageContainer-2 {
+    padding: 20px;
+  }
+  .longTextContents-2 {
+    text-align: center;
+    margin-top: 35px;
+  }
+  .flex-box-2 {
+    display: initial;
+  }
+  .flowDetailedImage-2 img {
+    margin-top: 0;
+    width: 70px;
+  }
+  .flowDetailedImage-2 p {
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .flowDetailedText-2 {
+    margin-left: 0;
+  }
+  .flowDetailedText-2 h1 {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText-2 h2 {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText-2 p {
+    margin-top: 15px;
+    font-size: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  /*3番目*/
+  .imageContainer-3 {
+    padding: 20px;
+  }
+  .flex-box-3 {
+    display: initial;
+  }
+  .flowDetailedImage-3 img {
+    margin-top: 0;
+    width: 70px;
+  }
+  .flowDetailedImage-3 p {
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .flowDetailedText-3 {
+    margin-left: 0;
+  }
+  .flowDetailedText-3 h1 {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 15px;
+  	padding-right: 0;
+  }
+  .flowDetailedText-3 h2 {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  /*4番目*/
+  .imageContainer-4 {
+    padding: 20px;
+  }
+  .flex-box-4 {
+    display: initial;
+  }
+  .flowDetailedImage-4 img {
+    margin-top: 0;
+    width: 70px;
+  }
+  .flowDetailedImage-4 p {
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .flowDetailedText-4 {
+    margin-left: 0;
+  }
+  .flowDetailedText-4 h1 {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 15px;
+  	padding-right: 0;
+  }
+  .flowDetailedText-4 h2 {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText-4 p {
+    margin-top: 15px;
+    font-size: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  /*5番目*/
+  .imageContainer-5 {
+    padding: 20px;
+  }
+  .flex-box-5 {
+    display: initial;
+  }
+  .flowDetailedImage-5 img {
+    margin-top: 0;
+    width: 70px;
+  }
+  .flowDetailedImage-5 p {
+    line-height: 24px;
+    margin-top: 5px;
+  }
+  .flowDetailedText-5 {
+    margin-left: 0;
+  }
+  .flowDetailedText-5 h1 {
+    margin-top: 30px;
+    max-width: 400px;
+    font-size: 15px;
+  	padding-right: 0;
+  }
+  .flowDetailedText-5 h2 {
+    margin-top: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .flowDetailedText-5 p {
+    margin-top: 15px;
+    font-size: 15px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+  .borderImage img {
+  	display: inline-block;
+  	width: 90%;
+  	max-width: 350px;
+  }
+  /*sixteenth-wrapper ここまで*/
+
+  .seventeenth-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .whyBangkok {
+    color: white;
+    padding-left: 20px;
+  }
+
+  .nineteenth-wrapper {
+    height: auto;
+    padding-bottom: 30px;
+  }
+  .keyEngnieer:before,.keyEngnieer:after {
+    display: none;
+  }
+
+  /* twentieth-wrapper */
+  .twentieth-wrapper {
+    height: auto;
+    padding-bottom: 40px;
+  }
+  .foreverSkills {
+    text-align: center;
+    font-weight: bold;
+  }
+  .foreverSkills h1 {
+    font-size: 23px;
+    padding-top: 62px;
+    letter-spacing: 2px;
+  }
+  .foreverSkills h2 {
+    margin-top: 45px;
+    letter-spacing: 1.5px;
+    font-size: 19px;
+  }
+  .messageFromFounder {
+    display: inline-block;
+    align-items: initial;
+    justify-content: initial;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .messageFromFounder img {
+    display: inline-block;
+    width: 90%;
+    max-width: 550px;
+    margin-top: 47px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .messageContainer {
+    display: inline-block;
+    width: 90%;
+    max-width: 580px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    padding-left: 30px;
+  }
+  .message-1 h1 {
+    text-align: initial;
+  }
+  .message-1 h2 {
+    margin-top: 20px;
+    line-height: 23px;
+    text-align: initial;
+  }
+  .message-2 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    line-height: 23px;
+    text-align: initial;
+  }
+  .message-3 h1 {
+    line-height: 23px;
+    text-align: initial;
+  }
+  .message-3 h2 {
+    margin-top: 14px;
+    text-align: initial;
+  }
+  /* twentieth-wrapper　終わり */
+
+  .twentyFirst-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .twentySecound-wrapper {
+    height: auto;
+    padding-bottom: 20px;
+  }
+  .arrowBottom {
+    display: none;
+  }
+  .question-1 h1:hover {
+    background: linear-gradient(transparent 96%, black 100%)
+  }
+  .header-left img {
+    margin-left: 10px;
+    float: initial;
+}
+  .header-left h1 {
+    float: initial;
+    margin-top: -10px;
+    padding-left: 10px;
+  }
+
+}
+
+/*その他の細かい設定*/
+@media (max-width: 1190px) {
+  .headingSale h2 {
+    font-size: 25px;
+    padding: 0 30px;
+  }
+  .flexBenefits {
+    display: ;
+  }
+  .freeBenefits {
+    padding: 60px 80px;
+  }
+	.freeBenefit {
+		width: 220px;
+		height: 220px;
+    margin-right: 50px;
+	}
+  .marginInitial {
+    margin-right: 0;
+  }
+  .circle-inner-1 {
+    font-size: 20px;
+  }
+  .circle-inner-2 {
+    font-size: 14px;
+    line-height: 18px;
+    width: 150px;
+  }
+}
+@media (max-width: 982px) {
+  .headingSale h2 {
+    font-size: 23px;
+    padding: 0 30px;
+  }
+  .flexBenefits {
+    display: ;
+  }
+  .freeBenefits {
+    padding: 50px 50px;
+  }
+	.freeBenefit {
+		width: 180px;
+		height: 180px;
+    margin-right: 30px;
+	}
+  .marginInitial {
+    margin-right: 0;
+  }
+  .circle-inner-1 {
+    font-size: 16px;
+  }
+  .circle-inner-2 {
+    font-size: 12px;
+    line-height: 18px;
+    width: 120px;
+  }
+}
+
+@media (max-width: 510px) {
+  .isaraMembers-1 img {
+    border-radius: 50%;
+    position: relative;
+    position: absolute;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .isaraMembers-2 img {
+    margin-left: 30%;
+    width: 40%;
+  }
+}
